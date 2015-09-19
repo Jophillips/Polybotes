@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgwithout"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".AnswersScreen" >
+
+    <Button
+        android:id="@+id/buttonBackAnswers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@null"
+        android:text="@string/back"
+        android:textColor="@color/White" />
+
+    <TextView
+        android:id="@+id/textAnswersTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/buttonBackAnswers"
+        android:layout_alignBottom="@+id/buttonBackAnswers"
+        android:layout_centerHorizontal="true"
+        android:text="@string/Answers"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/White" />
+
+    <TextView
+        android:id="@+id/textAnswers3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonBackAnswers"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/buttonBackAnswers"
+        android:maxLines="12"
+        android:scrollbars="vertical"
+        android:text="@string/aboutText"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/White" />
+
+    <Button
+        android:id="@+id/buttonPlayAgain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textAnswers3"
+        android:layout_below="@+id/textAnswers3"
+        android:layout_marginLeft="46dp"
+        android:layout_marginTop="20dp"
+        android:background="@null"
+        android:text="@string/playAgain"
+        android:textColor="@color/White" />
+
+</RelativeLayout>

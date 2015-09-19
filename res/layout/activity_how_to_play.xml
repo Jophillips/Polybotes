@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgwithout"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".HowToPlay" >
+
+    <Button
+        android:id="@+id/buttonBackHowTo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@null"
+        android:text="@string/back"
+        android:textColor="@color/White" />
+    
+        <TextView
+            android:id="@+id/textHowToTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/buttonBackHowTo"
+            android:layout_alignBottom="@+id/buttonBackHowTo"
+            android:layout_centerHorizontal="true"
+            android:text="@string/howtoplay"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/White" />
+
+    <TextView
+        android:id="@+id/textHowTo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonBackHowTo"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/buttonBackHowTo"
+        android:maxLines="14"
+        android:scrollbars="vertical"
+        android:text="@string/howToPlayText"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/White" />
+
+</RelativeLayout>

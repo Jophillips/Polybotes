@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PolyBotes</string>
+    <string name="action_settings">Settings</string>
+    <string name="press_me">Press me!</string>
+    <string name="press_me2">Press me 2!</string>
+    <string name="press_me3">Press me 3!</string>
+    <string name="press_me4">Press me 4!</string>
+    <string name="easy">Easy</string>
+    <string name="intermediate">Intermediate</string>
+    <string name="hard">Hard</string>
+    <string name="what_is">What is the </string>
+    <string name="population">population</string>
+    <string name="of">of</string>
+    <string name="country">Zambia?</string>
+    <string name="scoreLabel">Score:</string>
+    <string name="score">226</string>
+    <string name="desc">Description</string>
+    <string name="back">Back</string>
+    <string name="Answers">Answers</string>
+    <string name="playAgain">Play Again</string>
+    <string name="howToPlayText">It is recommended that before you start playing that you try some practice. \n\n The letters following each number mean the following.  \n \n K = Thousand (1,000) \n M = Million (1,000,000) \n B = Billion (1,000,000,000) \n T = Trillion (1,000,000,000,000) \n \n (i.e. 16.32M is the equalivent of 16,320,000)\n </string>
+    <string name="aboutText">Polybotes is an educational multiple choice game designed to be an interactive way of learning important statistics of countries around the world. With the expection of a few figures all of the data was collected from the World Bank - Open Data initiative and formatted to be visually appealing. Whether you are trying to improve your grades in a geography class or simply wish to become more familar with the world Polybotes can help you. \n \n Programming and Design: \n Joey Phillips \n\n Music: \n Coriolan Overture [Op. 62] - \n \t Ludwig van Beethoven \n</string>
+
+    <!-- Menu Items -->
+
+    <string name="menu">Menu</string>
+    <string name="play">Play</string>
+    <string name="standard">Standard</string>
+    <string name="expert">Expert</string>
+    <string name="practice">Practice</string>
+    <string name="about">About</string>
+    <string name="howtoplay">How To Play</string>
+    <string name="preferences">Preferences</string>
+    <string name="credits">About</string>
+    <string name="title_activity_splash">Splash</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="app_activity_menu">Menu</string>
+    <string name="app_activity_splash">Polybotes</string>
+    <string name="title_activity_credits">Credits</string>
+    <string name="title_activity_how_to_play">HowToPlay</string>
+    <string name="title_activity_preferences">Preferences</string>
+    <string name="title_activity_answers_screen">AnswersScreen</string>
+    <string name="title_activity_practice">Practice</string>
+
+</resources>

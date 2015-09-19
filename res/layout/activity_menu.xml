@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayoutMenu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgwithout"
+    android:columnCount="1"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/ButtonPractice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/buttonPlay"
+        android:background="@null"
+        android:longClickable="false"
+        android:text="@string/practice"
+        android:textSize="26sp"
+        android:textColor="@color/White" />
+
+    <Button
+        android:id="@+id/ButtonCredits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/ButtonPerferences"
+        android:layout_marginTop="26dp"
+        android:background="@null"
+        android:longClickable="false"
+        android:text="@string/credits"
+        android:textSize="26sp"
+        android:textColor="@color/White" />
+
+    <Button
+        android:id="@+id/ButtonPerferences"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/ButtonHowToPlay"
+        android:layout_marginTop="26dp"
+        android:background="@null"
+        android:longClickable="false"
+        android:text="@string/preferences"
+        android:textSize="26sp"
+        android:textColor="@color/White" />
+
+    <Button
+        android:id="@+id/ButtonHowToPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/ButtonPractice"
+        android:layout_marginTop="26dp"
+        android:background="@null"
+        android:longClickable="false"
+        android:text="@string/howtoplay"
+        android:textSize="26sp"
+        android:textColor="@color/White" />
+
+    <Button
+        android:id="@+id/buttonPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textMenu"
+        android:layout_marginTop="30dp"
+        android:background="@null"
+        android:longClickable="false"
+        android:text="@string/play"
+        android:textSize="26sp"
+        android:textColor="@color/White" />
+
+    <TextView
+        android:id="@+id/textMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:text="@string/menu"
+        android:textSize="36sp"
+        android:textColor="@color/White" />
+
+</RelativeLayout>

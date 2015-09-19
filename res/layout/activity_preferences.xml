@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgwithout"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Preferences" >
+
+    <Button
+        android:id="@+id/buttonBackPreferences"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@null"
+        android:text="@string/back"
+        android:textColor="@color/White" />
+    
+        <TextView
+            android:id="@+id/textPreferencesTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/buttonBackPreferences"
+            android:layout_alignBottom="@+id/buttonBackPreferences"
+            android:layout_centerHorizontal="true"
+            android:text="@string/preferences"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/White" />
+
+        <Button
+            android:id="@+id/buttonEasy"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/buttonBackPreferences"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="34dp"
+            android:text="@string/easy" />
+
+        <Button
+            android:id="@+id/buttonIntermediate"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/buttonEasy"
+            android:layout_below="@+id/buttonEasy"
+            android:text="@string/intermediate" />
+
+        <Button
+            android:id="@+id/buttonHard"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/buttonIntermediate"
+            android:layout_below="@+id/buttonIntermediate"
+            android:text="@string/hard" />
+
+</RelativeLayout>
